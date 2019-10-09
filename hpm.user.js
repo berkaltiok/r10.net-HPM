@@ -22,7 +22,7 @@ if (n) {
         var params = url.split("$");
 
 
-        var hocam = "Merhaba hocam, \n [url=" + params[2] + "][B][COLOR=#41A85F]" + decodeURI(params[1]) + "[/COLOR][/B][/url] konunuz icin yaziyorum. Detaylari alabilir miyim?";
+        var hocam = "Merhaba hocam, \n [url=" + params[2] + "][B][COLOR=#41A85F]" + decodeURI(params[1]) + "[/COLOR][/B][/url] konunuz içim yazıyorum. Detayları alabilir miyim?";
         document.querySelector("#message_form > div.head > div:nth-child(3) > div:nth-child(2) > input").value = decodeURI(params[1]) + " konusu hakkinda";
         document.querySelector("#vB_Editor_001 > div > div.fr-wrapper > div").click();
         document.querySelector("#r10BBCode-1").click();
